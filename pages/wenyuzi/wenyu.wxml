@@ -1,0 +1,32 @@
+<swiper indicator-dots="false" autoplay="false" interval="5000" duration="500" indicator-active-color="#00ff00">
+
+
+  <block wx:for="{{slideImgArr}}" wx:key = "items">
+    <swiper-item>
+      <image src="{{item}}" class="slide-image" width="375" hight="150"       />
+    </swiper-item>
+    </block>
+</swiper>
+
+<view class="aa" wx:for="{{mypostData}}">
+<view class="readList">
+
+  <view class="bb">
+    <image src="{{item.avatar}}"></image>
+    <text>sept 06.8 2017</text>
+  </view>
+  
+  <view class="cc">{{item.title}}</view>
+  <view class="dd">
+    <image src="{{item.imgSrc}}" bindtap="openyuedu" data-postid="{{item.postId}}"></image>
+  </view>
+  <view class="ee">{{item.detail}}</view>
+  <view class="ff">
+    <image src="{{mypostData[0].xihuan}}"></image>
+    <text>999</text>
+    <image src="{{mypostData[0].youlan}}"></image>
+    <text>999</text>
+  </view>
+</view>
+</view>
+  

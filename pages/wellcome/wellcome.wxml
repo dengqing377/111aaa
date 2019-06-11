@@ -1,0 +1,5 @@
+<view class="welcomeContanier" id="" hover-class="">
+  <image src="../../images/avatar/1.png"></image>
+  <text>hello 7月</text>
+  <button plain="true" size="mini" bindtap="opennewtab">开启小程序之旅</button>
+</view>

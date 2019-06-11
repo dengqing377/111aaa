@@ -1,0 +1,17 @@
+<view class="detailImg">
+  <image src="../../../images/post/xiaolong.jpg"></image>
+</view>
+
+<view class="auther">
+  <image src="../../../images/avatar/1.png"></image>
+  <text>2017.06.08</text>
+</view>
+<view class="title">正式虾肥鱼壮时</view>
+
+<view class="tool">
+  <view class="toolIcon">
+    <image src="../../../images/icon/collection-anti.png"></image>
+    <image src="../../../images/icon/share.png"></image>
+  </view>
+  <view class="line"></view>
+</view>

@@ -1,0 +1,88 @@
+@import "../moban/moban.wxss";
+text{
+  font-size: 30rpx;
+  color: #666;
+}
+.zi{
+  margin-top:10rpx;
+}
+.aa{
+  height: 60rpx;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  margin-top: 20rpx;
+}
+.aa image{
+  width: 40rpx;
+  height: 40rpx;
+}
+.aa input{
+  color: #dedede;
+  margin-left: 25rpx;
+  font-size: 40rpx;
+}
+.cc{
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-content: center;
+  margin: 0rpx 40rpx;
+  }
+.bb image{
+  width: 180rpx;
+  height: 240rpx;
+}
+.dd{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 40rpx;
+  widows: 375rpx;
+}
+.nvxia{
+  display: flex;
+  flex-direction: column;
+
+}
+.gg{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 40rpx;
+}
+.ff{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-content: center;
+  margin: 0rpx 40rpx;
+}
+.ee image{
+  width: 180rpx;
+  height: 240rpx;
+  display: flex;
+  flex-direction: column;
+}
+.munaiyi{
+  display: flex;
+  flex-direction: column;
+}
+.woxin{
+  display: flex;
+  flex-direction: column;
+}
+.lilei{
+  display: flex;
+  flex-direction: column;
+}
+.xingxing image{
+  width: 25rpx;
+  height: 25rpx;
+}
+.xingxing{
+  display: flex;
+  flex-direction: row;
+  margin-top: 15rpx;
+}

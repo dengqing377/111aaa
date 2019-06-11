@@ -1,0 +1,32 @@
+<import src="../moban/moban.wxml" />
+<template is="bbbAb" data="{{slideImgArr}}" />
+<view class="aa">
+  <image src="../../images/dianying/sousuo.jpg"></image>
+  <input value="血战钢锯岭，神奇女侠" />
+</view>
+<view class="bb">
+  <block wx:for="{{mypostData}}">
+    <view class="cc">
+      <text>{{item.title}}</text>
+      <text>{{item.tiele2}}</text>
+    </view>
+    <view class="dd">
+      <block wx:for="{{item.sc}}" wx:for-item="out" wx:for-out="outIndex">
+        <view class="nvxia">
+          <image src="{{out.movesrc}}" bindtap="opendianying" data-postid="{{out.postid}}"></image>
+          <text>{{out.name}}</text>
+          <view class="xingxing">
+            <image src="../../images/icon/star.png"></image>
+            <image src="../../images/icon/star.png"></image>
+            <image src="../../images/icon/star.png"></image>
+            <image src="../../images/icon/star.png"></image>
+            <image src="../../images/icon/none-star.png"></image>
+            <text>{{out.mark}}</text>
+          </view>
+        </view>
+      </block>
+    </view>
+    </block>
+</view>
+
+

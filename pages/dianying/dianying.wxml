@@ -1,0 +1,49 @@
+<view class="aa">
+  <image src="{{myPostData.bgimage}}"></image>
+  <view class="bb">
+    <text class="biaoti1">{{myPostData.name}}</text>
+    <text class="biaoti2">{{myPostData.age}}</text>
+    <view class="biaoti3">
+    <text class="yanse">{{myPostData.like}}</text><text class="en">人喜欢</text>
+    <text class="yanse">{{myPostData.comment}}</text><text class="en">条评论</text>
+    </view>
+  </view>
+  <view class="cc">
+    <image src="{{myPostData.movesrc}}"></image>
+  </view>
+</view>
+<view class="xia">
+<view class="dd">
+  <view class="yi">
+    <text>{{myPostData.Ename}}</text>
+  </view>
+  <view class="er">
+    <view class="er_1">
+      <text class="ai">评分</text>
+      <text class="ai">导演</text>
+      <text class="ai">影人</text>
+      <text class="ai">类型</text>
+    </view>
+    <view class="er_2">
+      <view class="xingxing">
+        <image src="../../images/icon/star.png"></image>
+        <image src="../../images/icon/star.png"></image>
+        <image src="../../images/icon/star.png"></image>
+        <image src="../../images/icon/star.png"></image>
+        <image src="../../images/icon/none-star.png"></image>
+        <text>{{myPostData.mark}}</text>
+      </view> 
+        <text>{{myPostData.director}}</text>
+        <text>{{myPostData.actor}}</text>
+        <text>{{myPostData.types}}</text>  
+    </view> 
+  </view>
+</view>
+<view class="xian"></view>
+  <view class="ee">
+    <view class="ff">
+      <text class="ai">剧情介绍</text>
+    </view>
+    <text class="wenzi">{{myPostData.gut}}</text>
+  </view>
+</view>

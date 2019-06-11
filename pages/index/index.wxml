@@ -1,0 +1,13 @@
+<!--外层循环每一大块 然后每一项用out表示 然后每一大块里面还需要循环就需要用到out-->
+<block wx:for="{{movieArr}}" wx:for-item="out" wx:for-index="outIndex">
+  <view class="box">
+    <view class="classname">
+      <text>第{{outIndex}}块</text>
+    </view>
+    <block wx:for="{{out}}" wx:for-item="in">
+    <!--上面一行代表循环每一大块的里面的数据 循环的数据来自out-->
+      <view class="classname">{{in.title}}</view>
+      <view class="classname">{{in.img}}</view>
+    </block>
+  </view>
+</block>

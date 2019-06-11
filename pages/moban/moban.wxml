@@ -1,0 +1,33 @@
+<template name="msgItem">
+  <view class="nvxia">
+    <image src="../../images/dianying/nvxia.jpg"></image>
+    <text>神奇女侠</text>
+    <view class="xingxing">
+      <image src="../../images/icon/star.png"></image>
+      <image src="../../images/icon/star.png"></image>
+      <image src="../../images/icon/star.png"></image>
+      <image src="../../images/icon/star.png"></image>
+      <image src="../../images/icon/none-star.png"></image>
+      <text>7.4</text>
+    </view>
+  </view>
+</template>
+<template name="bbbAb">
+  <swiper indicator-dots="false" autoplay="false" interval="5000" duration="500" indicator-active-color="#00ff00">
+
+
+    <block wx:for="{{slideImgArr}}">
+      <swiper-item>
+        <image src="{{item}}" class="slide-image" width="375" hight="150" />
+      </swiper-item>
+    </block>
+  </swiper>
+</template>
+
+<template is="bbbAb" data="{{slideImgArr}}" />
+<!--
+<template is="msgitem"/>
+<template is="msgitem"/>
+<template is="msgitem"/>
+<template is="msgitem"/>
+<template is="msgitem"/>-->

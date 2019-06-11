@@ -1,0 +1,46 @@
+
+.aa{
+  height: 500rpx;
+}
+.aa image{
+  width:100%;
+  height: 500rpx;
+}
+.cc image{
+  width: 80rpx;
+  height: 80rpx;
+  margin: 20rpx 10rpx 10rpx 20rpx;
+}
+.bb text{
+  font-size: 24rpx;
+  color: #666;
+}
+.bb{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.dd txet{
+  padding: 20rpx 20rpx;
+  font-size: 34rpx;
+  
+}
+.xian{
+  height: 1px;
+ background-color: #666;
+ position:relative;
+ top: 45rpx;
+}
+.gg{
+  
+}
+.gg image{
+  width: 90rpx;
+  height: 90rpx;
+  float: right;
+  position: relative;
+  z-index:2;
+}
+.hh{
+  margin: 150rpx 20rpx;
+}

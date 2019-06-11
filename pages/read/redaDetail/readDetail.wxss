@@ -1,0 +1,50 @@
+/* readDetail.wxss */
+.auther{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-top: 20rpx;
+}
+.auther image{
+  width: 80rpx;
+  height: 80rpx;
+
+  /*上  右  下 左*/
+  margin: 0 20rpx 0rpx 10rpx;
+  /*四边都一样*/
+  /*margin: 10rpx;*/
+
+  /*上下 左右*/
+  /*margin: 10rpx 20rpx;*/
+  /*上 左右 下 */
+  /*margin: 10rpx 15rpx 20rpx;*/
+}
+.auther text{
+  font-size: 24rpx;
+}
+.title{
+  padding: 30rpx 20rpx;
+  font-size: 34rpx;
+  font-weight: 900;
+}
+
+.tool{
+  height: 100rpx;
+  background-color: goldenrod;
+}
+.toolIcon{
+  position: relative;
+  z-index: 2;
+  text-align: right;
+}
+.toolIcon image{
+  width: 48px;
+  height: 48px;
+  margin-right: 20rpx;
+}
+.line{
+  height: 1px;
+  position: relative;
+  top: -20px;
+  background-color: #000;
+}

@@ -1,0 +1,84 @@
+swiper{
+  height: 500rpx;
+}
+.slide-image{
+  width:100%;
+  height: 500rpx;
+}
+.aa{
+  margin-top: 10rpx;
+  border-top: 1px solid #666;
+}
+.bb image{
+  width: 80rpx;
+  height: 80rpx;
+  margin: 20rpx 10rpx 10rpx 20rpx;
+}
+.bb text{
+  font-size: 24rpx;
+  color: #666;
+}
+.bb{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.cc{
+  padding: 20rpx 20rpx;
+  font-size: 34rpx;
+}
+.dd image{
+  width: 100%;
+}
+.ee{
+  font-family: 幼圆;
+  font-size: 28rpx;
+}
+.ff image{
+  width:35rpx;
+  height: 35rpx;
+
+}
+.ff{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.ff text{
+  font-family:幼圆;
+  font-size: 24rpx; 
+  margin: 10rpx 20rpx 10rpx 20rpx;
+}
+.hh{
+  display: flex;
+  flex-direction: row;
+   justify-content: center;
+  align-items: center;
+}
+.ii image{
+  width: 100rpx;
+  height: 100rpx;
+  margin-right: 80rpx;
+}
+.ii{
+  display: flex;
+  flex-direction: column;
+}
+.jj image{
+  width: 100rpx;
+  height: 100rpx;
+}
+.jj{
+  display: flex;
+  flex-direction: column;
+  margin-left: 80rpx;
+ 
+}
+.ii text{
+  font-size: 28rpx;
+  color: #666;
+}
+.jj text{
+  font-size: 28rpx;
+  color: #666;
+}

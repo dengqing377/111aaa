@@ -1,0 +1,7 @@
+<import src="../moban/moban.wxml"/>
+  <template is="msgItem"/>
+  <template is="msgItem"/>
+  <template is="msgItem"/>
+  <template is="msgItem"/>
+  <template is="msgItem"/>
+  <template is="msgItem"/>

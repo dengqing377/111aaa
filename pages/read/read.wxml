@@ -1,0 +1,93 @@
+<swiper indicator-dots="false" autoplay="false" interval="5000" duration="500" indicator-active-color="#f00" circular="false">
+  <block wx:for="{{slideImgArr}}">
+     <swiper-item bindtap="openReadDetail">
+      <image bindtap="play" src="{{item}}" class="slide-image" />
+    </swiper-item>
+  </block>
+  <!--<swiper-item bindtap="openReadDetail">
+    <image bindtap="play" src="{{slideImgArr[0]}}" class="slide-image" />
+  </swiper-item>
+  <swiper-item>
+    <image src="{{slideImgArr[1]}}" class="slide-image" width="355" height="150" />
+  </swiper-item>
+  <swiper-item>
+    <image src="{{slideImgArr[2]}}" class="slide-image" width="355" height="150" />
+  </swiper-item>-->
+</swiper>
+
+<!--<block wx:for="{{[1,3,5,6]}}">
+  <view class="classname">{{item}}</view>
+</block>-->
+
+<view class="readList">
+  <view class="auther">
+    <image src="../../images/avatar/1.png"></image>
+    <text>2017.06.08</text>
+  </view>
+  <view class="title">{{myPostData[0].title}}</view>
+  <view class="BigImg">
+    <image src="../../images/post/crab.png" mode="aspectFit"></image>
+  </view>
+  <view class="readInfo">
+    <text>2017年高考作文题目出炉啦~今年是高考恢复40周年，可以说意义非常重大！说起来，和这届高考考生一样万分关注高考的，就是跃跃欲试的段子手们了。</text>
+  </view>
+  <view class="gongneng">
+    <view class="chat">
+      <image src="../../images/icon/chat.png"></image>
+      <text>96</text>
+    </view>
+    <view class="viewIcon">
+      <image src="../../images/icon/view.png"></image>
+      <text>221</text>
+    </view>
+  </view>
+</view>
+
+
+<view class="readList">
+  <view class="auther">
+    <image src="../../images/avatar/1.png"></image>
+    <text>2017.06.08</text>
+  </view>
+  <view class="title">{{myPostData[1].title}}</view>
+  <view class="BigImg">
+    <image src="../../images/post/crab.png" mode="aspectFit"></image>
+  </view>
+  <view class="readInfo">
+    <text>2017年高考作文题目出炉啦~今年是高考恢复40周年，可以说意义非常重大！说起来，和这届高考考生一样万分关注高考的，就是跃跃欲试的段子手们了。</text>
+  </view>
+  <view class="gongneng">
+    <view class="chat">
+      <image src="../../images/icon/chat.png"></image>
+      <text>96</text>
+    </view>
+    <view class="viewIcon">
+      <image src="../../images/icon/view.png"></image>
+      <text>221</text>
+    </view>
+  </view>
+</view>
+
+<view class="readList">
+  <view class="auther">
+    <image src="../../images/avatar/1.png"></image>
+    <text>2017.06.08</text>
+  </view>
+  <view class="title">正式虾肥鱼壮时3</view>
+  <view class="BigImg">
+    <image src="../../images/post/crab.png" mode="aspectFit"></image>
+  </view>
+  <view class="readInfo">
+    <text>2017年高考作文题目出炉啦~今年是高考恢复40周年，可以说意义非常重大！说起来，和这届高考考生一样万分关注高考的，就是跃跃欲试的段子手们了。</text>
+  </view>
+  <view class="gongneng">
+    <view class="chat">
+      <image src="../../images/icon/chat.png"></image>
+      <text>96</text>
+    </view>
+    <view class="viewIcon">
+      <image src="../../images/icon/view.png"></image>
+      <text>221</text>
+    </view>
+  </view>
+</view>

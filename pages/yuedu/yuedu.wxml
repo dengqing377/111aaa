@@ -1,0 +1,24 @@
+<view class="aa">
+  <image src="{{myPostData.headImgSrc}}"></image>
+</view>
+<view class="bb">
+  <view class="cc">
+    <image src="{{myPostData.avatar}}"></image>
+  </view>
+  <view class="dd">
+    <text>{{myPostData.author}}</text>
+    <text>发表于</text>
+    <text>24小时前</text>
+  </view>
+
+</view>
+<view class="ee">{{myPostData.title}}</view>
+<view class="gg">
+  <view class="xian"></view>
+    <image src="../../images/icon/collection-anti.png"></image>
+    <image src="../../images/icon/share.png"></image>
+</view>
+<view class="hh">
+  <text>{{myPostData.detail}}</text>
+</view>
+

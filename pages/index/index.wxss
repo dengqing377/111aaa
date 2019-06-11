@@ -1,0 +1,5 @@
+/**index.wxss**/
+.box{
+  margin: 20px;
+  border: 1px solid #f00;
+}

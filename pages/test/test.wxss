@@ -1,0 +1,22 @@
+@import "../moban/moban.wxss";
+.nvxia{
+  display: flex;
+  flex-direction: column;
+  float: left;
+  
+}
+.nvxia image{
+  width: 180rpx;
+  height: 240rpx;
+}
+.xingxing image{
+  width: 30rpx;
+  height: 30rpx;
+}
+.xingxing{
+  display: flex;
+  flex-direction: row;
+}
+.xingxing text{
+  font-size: 30rpx;
+}
